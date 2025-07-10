@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Archivos de texto</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: white;
+      color: black;
+      padding: 3rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      font-weight: normal;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .file-list {
+      max-width: 800px;
+      margin-left: 0;
+      margin-right: auto;
+      text-align: left;
+    }
+
+    .file-item {
+      margin: 0.8rem 0;
+      font-size: 1rem;
+    }
+
+    .file-item a {
+      text-decoration: none;
+      color: black;
+      display: inline-block;
+      transition: font-size 0.3s ease, color 0.3s ease;
+      white-space: nowrap;
+      max-width: none;
+      min-width: 0;
+    }
+
+    .file-item a:hover {
+      text-decoration: underline;
+      font-size: 1.2rem;
+      color: #007bff;
+    }
+
+    .back-btn {
+      display: inline-block;
+      margin-top: 3rem;
+      padding: 0.8rem 1.5rem;
+      background-color: #e0e0e0;
+      border-radius: 5px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+
+    .back-btn:hover {
+      background-color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Archivos de texto</h1>
+  <p>Haz clic en cualquiera de los archivos para abrirlos o descargarlos:</p>
+
+  <div class="file-list">
+    <div class="file-item">
+      <a href="tu-documento.pdf" target="_blank">
+        📄 00_TEXTO_TecnofeudalismoLuTorNetTFG_lutornet_2025
+      </a>
+    </div>
+    <div class="file-item">
+      <a href="01_TEXTO_Guion_lutornet_2025-2.pdf" target="_blank">
+        📄 01_TEXTO_GUIÓNINTERCONECTADXS_lutornet_2025
+      </a>
+    </div>
+    <div class="file-item">
+      <a href="ayuda_links.pdf" target="_blank">
+        📄 02_TEXTO_linksencaso de fallo_lutornet_2025
+      </a>
+    </div>
+  </div>
+
+  <a class="back-btn" href="index.html">← Volver al inicio</a>
+</body>
+</html>
